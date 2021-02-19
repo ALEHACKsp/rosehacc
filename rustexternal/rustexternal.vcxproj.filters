@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="memory.cpp">
+      <Filter>Cheat\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="aura.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="entityloop.cpp">
+      <Filter>Cheat\EntityLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Cheat\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Cheat\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Cheat\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Cheat\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pubg-private-master\pubg skill\globals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory.h">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="aura.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="entityloop.h">
+      <Filter>Cheat\EntityLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Cheat\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Cheat\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Cheat\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="driver_binary.h">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pubg-private-master\pubg skill\aura.h" />
+    <ClInclude Include="..\..\pubg-private-master\pubg skill\globals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{66c6c247-2b51-4378-b9fc-1e023176d883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{21a15c6d-95f1-4397-91f4-80d142235904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Memory">
+      <UniqueIdentifier>{f7cb5e53-8d7c-40e7-8724-2cba5113c459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\ImGui">
+      <UniqueIdentifier>{effab449-0b14-4e3d-9bf5-d52566dae7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\EntityLoop">
+      <UniqueIdentifier>{3281402f-949e-4990-8364-c5769d7587d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Game">
+      <UniqueIdentifier>{24c35497-73c8-419b-a867-001b20b4e748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Renderer">
+      <UniqueIdentifier>{0910da9f-1ad4-4335-afd0-e1f3e0b5a5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Config">
+      <UniqueIdentifier>{f3909268-f8ff-47b8-a64b-9d9ab3833921}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

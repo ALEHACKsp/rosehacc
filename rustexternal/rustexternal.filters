@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Cheat\Memory">
+      <UniqueIdentifier>{c744cf48-54f3-46f6-8a23-9aac30801b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Globals">
+      <UniqueIdentifier>{ae8aac51-9032-4f50-a93d-975f9994f0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Overlay">
+      <UniqueIdentifier>{f7e52fe2-79bc-47cc-ac8a-253a67b7f3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\ImGui">
+      <UniqueIdentifier>{a416037a-d09f-4603-9165-71e10e413b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Entityloop">
+      <UniqueIdentifier>{a1cc84ce-75f6-496e-b62d-211df6dbc113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Game">
+      <UniqueIdentifier>{fee3c083-63e0-4f0b-a173-28dccb1a05a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat\Memory\Driver">
+      <UniqueIdentifier>{1e81fa0a-baa8-4bdf-8e09-5625d866d1ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Cheat\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LadderSDK\ladder_sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aura.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Cheat\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Cheat\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Cheat\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Cheat\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="entityloop.h">
+      <Filter>Cheat\Entityloop</Filter>
+    </ClInclude>
+    <ClInclude Include="string_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Cheat\Memory\Driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Cheat\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Cheat\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Cheat\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Cheat\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="entityloop.cpp">
+      <Filter>Cheat\Entityloop</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Cheat\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="aura.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Cheat\Memory\Driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
